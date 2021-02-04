@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6dfa958b2e61d41a693ea47d4b130f6d, type: 3}
+  m_Name: BasicEnemy
+  m_EditorClassIdentifier: 
+  name: Basic
+  size: 1
+  health: 100
+  speed: 3
+  rotRate: 10
+  damage: 50
+  healthyColor: {r: 1, g: 1, b: 1, a: 1}
+  damagedColor: {r: 0.3679245, g: 0.2759434, b: 0.2759434, a: 1}
+  sprite: {fileID: 21300000, guid: dde9cf30c6d4a4303ab4951da44ba8ac, type: 3}
+  targetTags:
+  - Player
